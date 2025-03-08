@@ -1,0 +1,9 @@
+def odd_ind(lst):
+  odd_set = []
+  for i in range(len(lst)):
+      if i % 2 != 0:
+        odd_set.append(lst[i])
+  return odd_set
+
+lst = [0, 1, 2, 3, 4, 5, 6, 7]
+print(odd_ind(lst))
